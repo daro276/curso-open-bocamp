@@ -1,0 +1,24 @@
+
+
+
+
+ 
+public class coche(){
+         int numeroP=0;
+
+coche(){}
+
+public void agregarP(){
+        numeroP++;
+}
+public static void main (String[] args) {
+     coche miCoche= new coche();
+     miCoche.agregarP();
+     miCoche.numeroP();
+}
+
+public void mostrarP(){
+System.out.println("La cantidad de puertas es "+ numeroP);
+}
+
+}
